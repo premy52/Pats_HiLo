@@ -6,7 +6,7 @@ answer = random.randint(1, 100)
 chances = 5
 
 while tries < chances:
-    print('------------------\nanswer is ', answer)
+    print('------------------' * tries)
     guess = input('Enter an integer between 1 and 100: ')
     guess_int = int(guess)
     tries += 1
